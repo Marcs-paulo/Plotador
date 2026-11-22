@@ -2,13 +2,15 @@
 
 Projeto da disciplina **Programação Avançada** do Departamento de Engenharia de Computação e Automação (DCA) da **UFRN**, com o professor Adelardo Adelino Dantas de Medeiros.
 
-A disciplina teve três projetos práticos, um por unidade:
+A disciplina tem cinco projetos práticos, feitos nesta ordem:
 
-| Unidade | Projeto | Assunto principal |
-| :-- | :-- | :-- |
+| # | Projeto | Assunto principal |
+| :-: | :-- | :-- |
 | 1 | [BigInt](https://github.com/Marcs-paulo/BigInt) | classes, ponteiros e memória dinâmica |
 | 2 | [Planejador](https://github.com/Marcs-paulo/Planejador) | exceções, arquivos e STL (algoritmo A*) |
 | 3 | **Plotador** (este) | interface gráfica com Qt |
+| 4 | Designer | herança, polimorfismo e métodos virtuais (desenhos 2D exportados em SVG) |
+| 5 | Supervisório de tanques | aplicação cliente-servidor com sockets TCP/IP e cliente em Qt |
 
 ## O que é
 
