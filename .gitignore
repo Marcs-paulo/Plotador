@@ -1,0 +1,10 @@
+build/
+*.o
+moc_*
+ui_*.h
+qrc_*
+Makefile*
+.qmake.stash
+*.pro.user*
+.qtcreator/
+Plotador

@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QColor>
+#include <QString>
 
 namespace Ui {
 class LehFuncao;

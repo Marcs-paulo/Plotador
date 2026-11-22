@@ -1,5 +1,6 @@
 #include "lehfuncao.h"
 #include "ui_lehfuncao.h"
+#include <QColor>
 
 LehFuncao::LehFuncao(QWidget *parent)
     : QDialog(parent)

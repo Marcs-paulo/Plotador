@@ -5,6 +5,9 @@
 #include <QResizeEvent>
 #include <QColor>
 #include <vector>
+#include <QPointF>
+#include <QString>
+
 #include "lehfuncao.h"
 #include "evaluator.h"
 

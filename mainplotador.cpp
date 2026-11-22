@@ -1,12 +1,20 @@
 #include "mainplotador.h"
 #include "ui_mainplotador.h"
-//POR SEGURANÇA COMO FOI UTILIZADO O POW IREI INCLUIR A <CMATH>
-#include <cmath>
+
 #include <QMessageBox>
 #include <QPen>
 #include <QPainter>
 #include <QLineF>
 #include <QString>
+#include <QPixmap>
+#include <QLabel>
+#include <QResizeEvent>
+#include <QHeaderView>
+#include <QCoreApplication>
+
+#include <cmath> //POR SEGURANCA COMO FOI UTILIZADO O POW IREI INCLUIR A <CMATH>
+#include <exception> // para garantir o o try/cath funcione perfeitamente
+#include <utility> // para utilizar o move
 
 MainPlotador::MainPlotador(QWidget *parent)
     : QMainWindow(parent)
@@ -64,7 +72,7 @@ void MainPlotador::slotIncluirFuncao(QString Funcao, QColor Cor)
         new_eval.set(Funcao.toStdString());
 
         // Insira o objeto new_eval no dado membro eval, com push_back.
-        eval.push_back(new_eval);
+        eval.push_back(std::move(new_eval));
 
         //Insira o parametro Cor no dado membro cor, com push_back.
         cor.push_back(Cor);

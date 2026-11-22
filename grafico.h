@@ -2,6 +2,9 @@
 #define GRAFICO_H
 
 #include <QLabel>
+#include <QPointF>
+// Por seguranca vou adicionar o QMouseEvent
+#include <QMouseEvent>
 
 class Grafico : public QLabel
 {
